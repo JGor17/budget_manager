@@ -2,7 +2,9 @@
 accounting application used to record spending over a specified fixed budget
 
 Budget.rb: source code of the entire application. There is a constant variable towards the top of the file named BUDGET at line 9 for the user to adjust to his/her fixed budget (required before starting the application, otherwise defaults to $100).
+
 Driver.rb: contains the implementation of Budget.rb and this file is to be compiled in order to run the program. Uses visualizations like dashed lines, and uses red and green text to visualize defecit and credit.
+
 input.txt: this file is used as input for the program. This should idealy be an archive of every transaction made by the user.
 
 format for each line is as follows: ##/##: $##.##
