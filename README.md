@@ -5,7 +5,7 @@ Budget.rb: source code of the entire application. There is a constant variable t
 Driver.rb: contains the implementation of Budget.rb and this file is to be compiled in order to run the program. Uses visualizations like dashed lines, and uses red and green text to visualize defecit and credit.
 input.txt: this file is used as input for the program. This should idealy be an archive of every transaction made by the user.
 
-format for each line is as follows: ##/##: $##(inf).##
+format for each line is as follows: ##/##: $##.##
 each line has a date and amount of money spent
 
 Brief Summary:
