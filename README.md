@@ -22,3 +22,36 @@ my parents to spend on food. This application helps me to keep track of how much
 what the current trend of my spending is, how much above or below am I in terms of the average amount of money I should be spending daily to
 optimize my spendature, and so on. This ruby application has been really useful to me in terms of me staying on track with my budget and not
 overspending.
+
+
+
+Directions:
+
+To use this program, first download the version of ruby that accepts gem add ons on your device (RVM):
+
+rvm install ruby
+
+Followed by installing the bundler gem in order to use the colorize gem:
+
+gem install bundler
+
+Next, download the ruby colorize gem using:
+
+sudo gem install colorize
+
+Then, download the files and navigate to them using the Command Lind, or Terminal if you are using Mac. For example, if the files are located in the Downloads folder, the command prompt would look something like this:
+
+cd Downloads/
+
+The next step is to navigate to the input file and enter in each day that you spent and what amount. The format for each line is as follows: 
+
+##/##: $##.##
+
+Next is to navigate to Budget.rb, open it, and change the constants $BUDGET and $AVERAGE to be what your budget is and the average money you think you would spend each day on this budget (I elected to have the values constant in the program to avoid user error).
+
+Finally, run the program using:
+
+ruby Driver.rb
+
+
+ 
