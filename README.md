@@ -43,7 +43,7 @@ Then, download the files and navigate to them using the Command Lind, or Termina
 
 cd Downloads/
 
-The next step is to navigate to the input file and enter in each day that you spent and what amount. The format for each line is as follows: 
+The next step is to navigate to the input file and enter in each day that you spent and what amount. There is some example inputs already in the file for your reference. These can be deleted. The format for each line is as follows: 
 
 ##/##: $##.##
 
